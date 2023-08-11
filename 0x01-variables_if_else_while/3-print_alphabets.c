@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <ctype.h>
 
- /**
+/**
  * main - print an alphabeth in lowercase
  *
  * Return: Always 0 (Success)
