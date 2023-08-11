@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/*
-* main - Entry point
+/**
+* main - This program generates a random number
 *
 * Return: Always 0 (Success)
 */
