@@ -3,24 +3,22 @@
 
  /**
  * main - print an alphabeth in lowercase
- * 
+ *
  * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-	char alpha;
+	char loweralpha;
+	char upperalpha;
 
-	for (alpha = 'a'; alpha <= 'z'; alpha++)
+	for (loweralpha = 'a'; loweralpha <= 'z'; loweralpha++)
 	{
-		if(islower(alpha))
-		{
-			putchar(toupper(alpha));
-		}
-		else if(isupper(alpha))
-		{
-			putchar(tolower(alpha));
-		}
+		putchar(loweralpha);
+	}
+	for (upperalpha = 'A'; upperalpha <= 'Z'; upperalpha++)
+	{
+		putchar(upperalpha);
 	}
 	putchar('\n');
 	return (0);
