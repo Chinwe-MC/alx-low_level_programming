@@ -12,14 +12,13 @@ int main(void)
 	char loweralpha;
 
 
-	for (loweralpha = 'a'; loweralpha <= 'z';)
+	for (loweralpha = 'a'; loweralpha <= 'z'; loweralpha++)
 	{
-		if(loweralpha == 'e' || loweralpha == 'q')
+		if(loweralpha != 'e' && loweralpha != 'q')
 		{
-			loweralpha++;
-			putchar(tolower(loweralpha));
+			putchar(loweralpha);
 		}
-		putchar('\n');
 	}
+	putchar('\n');
 	return (0);
 }
