@@ -10,13 +10,15 @@
 int main(void)
 {
 	int i;
-
-	for (i = 0; i < 10;)
+	
+	for (i = 0; i < 10; i++)
 	{
 		putchar('0' + i);
-		putchar(',' + ' ');
-		i++;
-	} 
+		putchar(',');
+		putchar(' ');
+	}
+		
+	
 	return (0);
 
 }
