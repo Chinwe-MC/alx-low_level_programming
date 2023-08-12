@@ -11,14 +11,14 @@ int main(void)
 {
 
 	int i;
-	int j; 
+	int j;
 
 	for (i = 0; i <= 8; i++)
 	{
 		for (j = 1; j <= 9; j++)
 
 		{
-			if(i == j || j<i)
+			if (i == j || j < i)
 			{
 				continue;
 			}
@@ -32,10 +32,10 @@ int main(void)
 				putchar(' ');
 			}
 		}
-		
-		
-		
+
+
+
 	}
-	
+
 	return (0);
 }
