@@ -5,13 +5,13 @@
 /**
  * _abs - Checks the absolute number
  *
- * @a: function parameter int
+ * @c: function parameter int
  *
  * Return: Always 0
 */
 
 int _abs(int c)
-{	
+{
 	if (c < 0)
 	{
 	int value;
