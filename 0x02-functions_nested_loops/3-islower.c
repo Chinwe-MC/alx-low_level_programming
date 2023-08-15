@@ -2,7 +2,7 @@
 #include <ctype.h>
 
 /**
- * _isalpha - A function that checks for aplhabeths
+ * _islower - A function that checks for aplhabeths
  *
  * int c - function paramter int c
  *
