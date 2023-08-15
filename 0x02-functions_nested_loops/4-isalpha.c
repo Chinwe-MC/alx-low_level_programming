@@ -4,7 +4,7 @@
 /**
  * _isalpha - A function that checks for aplhabeths
  *
- * int c - function paramter int c
+ * @c: function paramter int c
  *
  * Return: 1 if alphabeth else Return 0
 */
