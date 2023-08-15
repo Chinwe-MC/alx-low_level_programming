@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - prints alphabet ten times
+ * main - function prints alphabet ten times
  *
  * Return: void
 */
