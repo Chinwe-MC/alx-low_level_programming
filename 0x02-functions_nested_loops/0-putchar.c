@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <ctype.h>
+#include <unistd.h>
 
 /**
  * main - printing a word and a new line
