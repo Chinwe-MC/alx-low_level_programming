@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <ctype.h>
 
 /**
  * main - printing a word and a new line
@@ -9,8 +10,7 @@
 int main(void)
 {
 
-	printf("_putchar");
-	print("\n");
+	printf("_putchar\n");
 	
 	return (0);
 }
