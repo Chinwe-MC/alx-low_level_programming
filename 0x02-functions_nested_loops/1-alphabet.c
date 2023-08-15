@@ -1,19 +1,23 @@
-#include <stdio.h>
 #include "main.h"
 
+/**
+ * main - printing lowercase alphabeths with _putchar
+ *
+ * Return: void
+*/
 
-int main(void)
+void print_alphabet(void)
 {
 
-	int i = 97;
+	char i = 97;
 
-	while(i < 112)
+	while(i < 122)
 	{
-		char a = print_alphabet(i);
+		_putchar(i);
 		i++;
-
 	}
-	return (0);
+	_putchar('\n');
+	
 
 }
-void print_alphabet(a);
+
