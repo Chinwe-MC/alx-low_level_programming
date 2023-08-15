@@ -1,7 +1,7 @@
 #include "main.h"
 #include <ctype.h>
 /**
- * _isalpha - A function that checks for aplhabeths
+ * _isalpha - A function that checks for aplhabeths with parameter c
  *
  * Return: 1 if alphabeth else Return 0
 */
