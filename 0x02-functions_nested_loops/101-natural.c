@@ -12,7 +12,6 @@ int main(void)
 {
 	int num;
 	int i;
-	int end_num = 1024;
 
 	for (i = 1; i < 1024; i++)
 	{
