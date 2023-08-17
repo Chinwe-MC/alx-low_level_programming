@@ -10,16 +10,17 @@
 
 int main(void)
 {
-	int num;
-	int i;
+	int num = 0;
+	int i = 1;
 
 	for (i = 1; i < 1024; i++)
 	{
-		if (i % 3 || i % 5 == 0)
+		if (i % 3 == 0 || i % 5 == 0)
 		{
 			num = num + i;
 		}
 	}
 	printf("%d\n", num);
+
 	return (0);
 }
