@@ -9,7 +9,7 @@
 
 int main(void)
 {
-	int f[50];
+	long long int f[50];
 	int i;
 
 	f[0] = 1;
@@ -21,7 +21,7 @@ int main(void)
 	}
 	for (i = 0; i < 50; i++)
 	{
-		printf("%d", f[i]);
+		printf("%lld", f[i]);
 		if (i < 50 - 1)
 		{
 			printf(", ");
