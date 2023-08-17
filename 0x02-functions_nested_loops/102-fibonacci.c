@@ -12,6 +12,7 @@ int main(void)
 	int f[50];
 	f[0] = 1;
 	f[1] = 2;
+
 	int i;
 
 	for (i = 2; i < 50; i++)
