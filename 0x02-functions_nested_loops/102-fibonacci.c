@@ -10,7 +10,6 @@
 int main(void)
 {
 	int f[50];
-
 	f[0] = 1;
 	f[1] = 2;
 	int i;
@@ -22,7 +21,7 @@ int main(void)
 	for (i = 0; i < 50; i++)
 	{
 		printf("%d", f[i]);
-		if (i < 49)
+		if (i < 50 - 1)
 		{
 			printf(", ");
 		}
