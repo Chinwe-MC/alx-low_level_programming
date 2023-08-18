@@ -2,9 +2,9 @@
 #include <math.h>
 
 /**
- * 
+ * main - Entry point
  *
- *
+ *Return: 0 Always
  */
 
 
@@ -36,4 +36,4 @@ int main(void)
 	}
 	printf("%ld\n", maximum);
 	return (0);
-}	
+}
