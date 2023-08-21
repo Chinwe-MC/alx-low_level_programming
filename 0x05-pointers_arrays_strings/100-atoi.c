@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *_atoi: Function name
+ *_atoi - Function name
  *@s: function parameter
  *_atoi: int
  *Return: int
