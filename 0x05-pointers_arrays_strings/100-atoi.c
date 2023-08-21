@@ -3,7 +3,8 @@
 /**
  *_atoi: Function name
  *@s: function parameter
- *Retun _atoi: int
+ *_atoi: int
+ *Return: int
  */
 
 int _atoi(char *s)
