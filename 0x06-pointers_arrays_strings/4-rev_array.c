@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- *
- *
- *
- *
+ *reverse_array - function to reverse numbers
+ *@a: function parameter
+ *@n: function parameter
+ *Return: void
  */
 
 
@@ -14,7 +14,7 @@ void reverse_array(int *a, int n)
 	int first = 0;
 	int last = n - 1;
 
-	while ( first < last)
+	while (first < last)
 	{
 		temp = a[first];
 		a[first] = a[last];
