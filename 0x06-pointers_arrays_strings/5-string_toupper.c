@@ -12,7 +12,7 @@ char *string_toupper(char *str)
 {
 	int i = 0;
 
-	for(i = 0; str[i] != '\0'; i++)
+	for (i = 0; str[i] != '\0'; i++)
 	{
 		if (islower(str[i]))
 		{
