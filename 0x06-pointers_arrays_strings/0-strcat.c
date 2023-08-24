@@ -2,12 +2,13 @@
 
 /**
  **_strcat - function to concatenate two strings
- *@*dest: function parameter
- *@*src: function parameter
+ *@dest: function parameter
+ *@src: function parameter
  *Return: char
  */
 
-char *_strcat(char *dest, char *src){
+char *_strcat(char *dest, char *src)
+{
 	char *new_dest = dest;
 
 	while (*dest != '\0')
@@ -21,5 +22,5 @@ char *_strcat(char *dest, char *src){
 		src++;
 	}
 	dest = '\0';
-	return new_dest;
+	return (new_dest);
 }
