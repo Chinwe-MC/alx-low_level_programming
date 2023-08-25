@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *print_numbers - function name
+ *print_number - function name
  *@n: parameter
  *Return: void
  */
