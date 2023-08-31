@@ -3,7 +3,6 @@
 
 /**
  *_sqrt_recursion - function name
- *actual_sqrt_recursion - second function name
  *@n: parameter
  *@i: parameter
  *Return: int
@@ -19,6 +18,13 @@ int _sqrt_recursion(int n)
 	return (actual_sqrt_recursion(n, 0));
 
 }
+/**
+ *actual_sqrt_recursion - function name
+ *@i: parameter
+ *@n: paramneter
+ *Return: int*
+ */
+
 int actual_sqrt_recursion(int n, int i)
 {
 	if (i * i > n)
