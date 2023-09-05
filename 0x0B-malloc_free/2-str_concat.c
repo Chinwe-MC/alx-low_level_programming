@@ -37,6 +37,10 @@ char *str_concat(char *s1, char *s2)
 	}
 	/*allocate memory for new string*/
 	temp = (char *)malloc(length1 + length2 + 1 * sizeof(char));
+	if (temp == NULL)
+	{
+		return (NULL);
+	}
 	for (i = 0; i < length1; i++)
 	{
 		temp[i] = s1[i];
@@ -46,10 +50,6 @@ char *str_concat(char *s1, char *s2)
 		temp[length1 + i] = s2[i];
 	}
 	temp[length1 + length2] = '\0';
-	if (temp == NULL)
-	{
-		return (NULL);
-	}
 	return (temp);
 
 }
