@@ -17,9 +17,17 @@ char *str_concat(char *s1, char *s2)
 	int length2 = 0;
 	char *temp;
 
-	if (s1 == NULL || s2 == NULL)
+	if (s1 == NULL && s2 == NULL)
 	{
 		return (NULL);
+	}
+	else if (s1 == NULL && s2 != NULL)
+	{
+		return (s2);
+	}
+	else
+	{
+		return (s1);
 	}
 	/*get length of s1*/
 	while (s1[length1] != '\0')
