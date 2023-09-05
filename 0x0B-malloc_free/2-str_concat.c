@@ -21,14 +21,10 @@ char *str_concat(char *s1, char *s2)
 	{
 		return (NULL);
 	}
-	else if (s1 == NULL && s2 != NULL)
-	{
-		return (s2);
-	}
-	else
-	{
-		return (s1);
-	}
+	else if (s1 == NULL)
+		return strdup(s2);
+	else if (s2 == NULL)
+		return strdup(s1);
 	/*get length of s1*/
 	while (s1[length1] != '\0')
 	{
