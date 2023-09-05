@@ -46,7 +46,7 @@ char *str_concat(char *s1, char *s2)
 		temp[length1 + i] = s2[i];
 	}
 	temp[length1 + length2] = '\0';
-	if (s1 == NULL)
+	if (temp == NULL)
 	{
 		return (NULL);
 	}
