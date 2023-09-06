@@ -12,44 +12,28 @@
 
 char *str_concat(char *s1, char *s2)
 {
-	int i;
-	int length1 = 0;
-	int length2 = 0;
-	char *temp;
+	int len1, len2;
+	char *result;
 
 	if (s1 == NULL)
 	{
-		s1 = " ";
+		s1 = "";
 	}
 	if (s2 == NULL)
 	{
-		s2 = " ";
+		s2 = "";
 	}
-	/*get length of s1*/
-	while (s1[length1] != '\0')
-	{
-		length1++;
-	}
-	/*Get lengtt of s2*/
-	while (s2[length2] != '\0')
-	{
-		length2++;
-	}
-	/*allocate memory for new string*/
-	temp = (char *)malloc(length1 + length2 + 1 * sizeof(char));
-	if (temp == NULL)
+	len1 = strlen(s1);
+	len2 = strlen(s2);
+	result = (char *)malloc(len1 + len2 + 2);
+
+	if (result == NULL)
 	{
 		return (NULL);
 	}
-	for (i = 0; i < length1; i++)
-	{
-		temp[i] = s1[i];
-	}
-	for (i = 0; i < length2; i++)
-	{
-		temp[length1 + i] = s2[i];
-	}
-	temp[length1 + length2] = '\0';
-	return (temp);
+	strcpy(result, s1);
+	strcat(result, " ");
+	strcat(result, s2);
+	return (result);
 
 }
