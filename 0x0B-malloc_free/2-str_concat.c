@@ -32,7 +32,6 @@ char *str_concat(char *s1, char *s2)
 		return (NULL);
 	}
 	strcpy(result, s1);
-	strcat(result, " ");
 	strcat(result, s2);
 	return (result);
 
