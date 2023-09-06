@@ -11,7 +11,7 @@
 char *argstostr(int ac, char **av)
 {
 	int i;
-	int total_len;
+	int total_len = 0;
 	char *concat;
 	int position = 0;
 
