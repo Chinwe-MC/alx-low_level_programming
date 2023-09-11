@@ -2,7 +2,7 @@
 #include "dog.h"
 
 /**
- *free_dog - function to free malloc 
+ *free_dog - function to free malloc
  *@d: pointer to dog to free
  *Return: void
  */
