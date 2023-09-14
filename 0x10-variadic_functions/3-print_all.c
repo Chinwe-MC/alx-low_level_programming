@@ -8,15 +8,15 @@
  */
 void print_all(const char * const format, ...)
 {
-	int i, num = 0; 
+	int i, num = 0;
 	double f;
-	char c, *s;
 	va_list all;
-	const char *form = format;
+	char *s, const char *form = format;
+
 	va_start(all, format);
 	while (*form)
 	{
-		if(num)
+		if (num)
 			printf(", ");
 		switch (*form)
 		{
