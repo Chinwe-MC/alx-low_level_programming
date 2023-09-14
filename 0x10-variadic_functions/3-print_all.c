@@ -10,8 +10,9 @@ void print_all(const char * const format, ...)
 {
 	int i, num = 0;
 	double f;
+	char *s, c;
 	va_list all;
-	char *s, const char *form = format;
+	const char *form = format;
 
 	va_start(all, format);
 	while (*form)
@@ -21,8 +22,7 @@ void print_all(const char * const format, ...)
 		switch (*form)
 		{
 			case 'i':
-				i = va_arg(all, int);
-				printf("%d", i);
+				printf("%d", i = va_arg(all, int));
 				num = 1;
 				break;
 			case 'f':
