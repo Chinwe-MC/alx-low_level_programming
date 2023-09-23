@@ -3,9 +3,10 @@
 #include <stdlib.h>
 #include <string.h>
 /**
- *
- *
- *
+ * add_node_end - function
+ *@head: parameter
+ *@str: parameter
+ *Return: 0 Always
  */
 
 list_t *add_node_end(list_t **head, const char *str)
@@ -39,7 +40,6 @@ list_t *add_node_end(list_t **head, const char *str)
 	else
 	{
 		old_node = *head;
-	
 		while (old_node->next != NULL)
 		{
 			old_node = old_node->next;
