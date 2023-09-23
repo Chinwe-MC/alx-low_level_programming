@@ -5,9 +5,10 @@
 #include <stddef.h>
 
 /**
- *
- *
- *
+ *add_node - function name
+ *@head: parameter
+ *@str:parameter
+ *Return: always 0
  */
 
 list_t *add_node(list_t **head, const char *str)
@@ -29,7 +30,7 @@ list_t *add_node(list_t **head, const char *str)
 	dup_str = strdup(str);
 	if (dup_str == NULL)
 	{
-		free (added_node);
+		free(added_node);
 		return (NULL);
 	}
 	added_node->len = strlen(dup_str);
