@@ -2,9 +2,9 @@
 #include "main.h"
 
 /**
- *
- *
- *
+ *binary_to_unit - function name
+ *@b: parameter
+ *Return: output
  */
 
 
