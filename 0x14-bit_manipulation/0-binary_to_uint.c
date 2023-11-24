@@ -2,30 +2,33 @@
 #include "main.h"
 
 /**
- * binary_to unit - function name
+ * binary_to_uint - function name
  * @b: parameter
  * Return: output
  */
 
-unsigned int binary_to_unit(const char *b)
+unsigned int binary_to_uint(const char *b)
 {
 	unsigned int output = 0;
-	int i = 0;
+	int i;
 
-	if (b == NULL)
+	if (!b)
 	{
 		return (0);
 	}
-	while (b[i] != '\0')
+	for (i = 0; b[i] != '\0'; i++)
 	{
-		if (b[i] == '0' || b[i] == 'i')
-		{
-			output = output + 2 + (b[i] - '0');
-			i++;
-		}
-		else
+		if (b[i] != '0' && b[i] != '1')
 		{
 			return (0);
+		}
+	}
+	for (i = 0; b[i] != '\0'; i++)
+	{
+		output <<= 1;
+		if (b[i] == '1')
+		{
+			output += 1;
 		}
 	}
 	return (output);

@@ -1,6 +1,6 @@
-#ifndef "main.h"
-#define "main.h"
+#ifndef MAIN_H
+#define MAIN_H
 
-unsigned int binary_to_unit(const char *b);
+unsigned int binary_to_uint(const char *b);
 
 #endif
